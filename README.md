@@ -33,7 +33,7 @@ I build automated, reliable cloud infrastructure so deployments don't depend on 
 - Terraform, Ansible, and CI/CD basics
 
 ### ⚡ Fun fact
-[Write one true, personal fact, for example: "I switched from MERN development to DevOps because I got tired of 'it works on my machine'." or something from your own life, like a hobby.]
+- I started as a MERN developer and switched to DevOps because I got tired of “it works on my machine".
 
 ---
 
