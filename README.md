@@ -1,73 +1,124 @@
+<div align="center">
+
 # Hi, I'm Khaula 👋
 
-☁️ **Cloud & DevOps Engineer** | AWS · Terraform · Docker · CI/CD
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=2F81F7&center=true&vCenter=true&width=720&lines=Cloud+%26+DevOps+Engineer;I+turn+manual+deployments+into+pipelines;AWS+%C2%B7+Terraform+%C2%B7+Docker+%C2%B7+CI%2FCD" alt="Typing animation" />
 
-I build automated, reliable cloud infrastructure so deployments don't depend on someone SSH-ing into a server at 2am. In my previous role, I replaced manual deployments with a GitHub Actions pipeline, cutting deployment time from **20 minutes to under 3**.
+**Manual deployments don't scale. I build infrastructure that does.**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/khaula-azhar)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@khaulaazhar828)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:khaulaazhar828@gmail.com)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/KhaulaAzha55762)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/cloudivax)
+
+🟢 **Open to remote Cloud/DevOps roles and freelance infrastructure projects**
+
+</div>
 
 ---
 
-### 🔭 I'm currently working on
-- Deploying a scalable, containerized web app on **AWS using Terraform + GitHub Actions** (VPC, EC2, remote state, auto-deploy)
-- Improving my existing projects with architecture diagrams, demos, and clear documentation
+## 👩‍💻 About me
 
-### 🤝 I'm looking to collaborate on
-- Open-source or side projects involving **CI/CD pipelines, Docker, and AWS infrastructure**
-- Real-world infrastructure projects where I can learn from experienced engineers
+I turn fragile, hand-managed servers into automated, reproducible systems that don't break at 2am.
 
-### 💼 I'm looking to help with
-- Deploying Node.js / MERN apps on **AWS EC2 with NGINX, SSL, and CI/CD**
-- Setting up **GitHub Actions pipelines** and **Docker** workflows
-- Infrastructure as Code with **Terraform and Ansible**
-- Monitoring with **Prometheus & Grafana**
+At my previous role, I replaced manual SSH-based deployments with a GitHub Actions CI/CD pipeline, **cutting deployment time from 20 minutes to under 3**.
+
+I started as a MERN developer and moved into DevOps because I got tired of "it works on my machine." I learn by building, breaking, and rebuilding real systems, and I document what I learn as I go.
+
+---
+
+## 🚀 Featured projects
+
+| Project | What it does | What it shows |
+|---|---|---|
+| [**Multi-AZ Elastic Architecture (Terraform)**](https://github.com/Khaula-cloud/Highly-available-multi-AZ-architecture-with-Terraform) | Fault-tolerant, auto-scaling AWS web infrastructure built entirely as code | Multi-AZ RDS, NAT gateway per AZ, ALB + Auto Scaling on CPU, Secrets Manager, Session Manager instead of SSH |
+| [**Serverless Event-Driven Backend**](https://github.com/Khaula-cloud/Serverless-Event-Driven-Backend-on-AWS) | S3-triggered Lambdas for image resizing and log parsing, provisioned with Terraform | Separate buckets to prevent recursive triggers, least-privilege IAM per function |
+| [**Secure Static Hosting: S3 + CloudFront**](https://github.com/Khaula-cloud/s3-cloudfront-static-site) | Private S3 bucket served only through CloudFront | Origin Access Control (SigV4), HTTPS redirect, direct S3 access denied |
+| [**Scalable Web App Infrastructure**](https://github.com/Khaula-cloud/Scalable_Web_App_Infrastructure) | Dockerized Node.js app behind Nginx with Postgres, Prometheus, Grafana, and CI/CD | `least_conn` load balancing, `/health` and `/ready` probes, JMeter load testing |
+| [**AWS 3-Tier Architecture**](https://github.com/Khaula-cloud/AWS-3-Tier-Architecture-Project) | VPC, ALB, Auto Scaling, and a private RDS database across two AZs | Security-group chaining, least-privilege networking |
+| [**Linux Automation Toolkit**](https://github.com/Khaula-cloud/Linux-Automation-Toolkit) | Bash + cron framework for disk monitoring, service recovery, log rotation, and alerts | Server hygiene without heavy monitoring stacks |
+| [**Linux System Hardening Automation**](https://github.com/Khaula-cloud/Linux-System-Hardening-Automation) | One Bash script that secures a fresh Linux server | UFW, Fail2Ban, SSH hardening, non-root user |
+
+<details>
+<summary><b>More projects</b></summary>
+
+- [AI Agent deployment on AWS EC2 with Docker and Grafana monitoring](https://github.com/Khaula-cloud/AI-Agent-deployment-on-AWS-EC2-with-Docker-and-Grafana-monitoring)
+- [Dockerised API with CI/CD on AWS EC2](https://github.com/Khaula-cloud/Dockerised-API-with-CI-CD-on-AWS-EC2)
+- [Express.js app on Kubernetes](https://github.com/Khaula-cloud/Deployment-of-expressjs-k8s-app-on-Kubernetes)
+- [Terraform + Ansible IaC on AWS](https://github.com/Khaula-cloud/Terraform-Ansible-IaC-on-AWS)
+- [Private RDS project](https://github.com/Khaula-cloud/RDS_private_project)
+- [EC2 + VPC with Terraform](https://github.com/Khaula-cloud/EC2-Vpc-terraform)
+- [Serverless with API Gateway, Lambda and DynamoDB](https://github.com/Khaula-cloud/Serverless-with-API-Gateway-Lambda-and-Dynamodb)
+
+</details>
+
+---
+
+## 🛠️ What I work with
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+| Area | Tools |
+|---|---|
+| **Cloud** | AWS (VPC, EC2, ALB, Auto Scaling, RDS, S3, CloudFront, IAM, Lambda) |
+| **Infrastructure as Code** | Terraform, Ansible |
+| **Containers** | Docker, Docker Compose, Kubernetes |
+| **CI/CD** | GitHub Actions, Jenkins |
+| **Monitoring** | Prometheus, Grafana, CloudWatch |
+| **Systems** | Linux, Nginx, Bash, Python |
+
+---
+
+## 🔭 Right now
+
+- 🔨 Building a scalable, containerized web app on **AWS with Terraform + GitHub Actions** (VPC, EC2, remote state, auto-deploy)
+- 📚 Studying for **AWS Solutions Architect**
+- ☸️ Going deeper on **Kubernetes**
+- 🔐 Learning more about **cloud security and cost optimization**
+
+---
+
+## 💼 How I can help
+
+- Deploying Node.js / MERN apps on **AWS EC2 with Nginx, SSL, and CI/CD**
+- Building **GitHub Actions pipelines** and **Docker** workflows
+- Writing **Terraform** for repeatable, reviewable infrastructure
+- Adding **Prometheus & Grafana** monitoring
 - Linux server setup and basic hardening
 
-### 🌱 I'm currently learning
-- **AWS Solutions Architect** concepts (my path toward becoming a cloud architect)
-- Kubernetes in more depth [edit: EKS / Helm / ArgoCD, whichever you are actually studying]
-- Cloud security and cost optimization
+## 💬 Ask me about
 
-### 💬 Ask me about
 - Automating deployments with GitHub Actions
 - Dockerizing and deploying Node.js apps
 - Moving from web development (MERN) into DevOps and cloud
-- Terraform, Ansible, and CI/CD basics
-
-### ⚡ Fun fact
-- I started as a MERN developer and switched to DevOps because I got tired of “it works on my machine".
+- Why I build things just to break them on purpose
 
 ---
 
-### 🛠️ Tech I work with
-**Cloud:** AWS (EC2, S3, IAM, Lambda)
-**IaC & Automation:** Terraform, Ansible, CloudFormation
-**Containers:** Docker, Kubernetes, Helm
-**CI/CD:** GitHub Actions, GitLab CI, Jenkins
-**Monitoring:** Prometheus, Grafana
-**OS & Scripting:** Linux, NGINX, Bash, Python
+## 🧭 How I build
 
-### 📫 Reach me
-- LinkedIn: [linkedin.com/in/khaula-azhar](https://www.linkedin.com/in/khaula-azhar)
-- Email: khaulaazhar828@gmail.com
-- Blog: [medium.com/@khaulaazhar828](https://medium.com/@khaulaazhar828)
-
-*Open to remote Cloud/DevOps roles and freelance infrastructure projects.*
-
-
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/cloudivax) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/khaula-azhar) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@https://medium.com/@khaulaazhar828) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/https://x.com/KhaulaAzha55762) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:khaulaazhar828@gmail.com) 
-
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white) ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white) ![FFmpeg](https://shields.io/badge/FFmpeg-%23171717.svg?logo=ffmpeg&style=for-the-badge&labelColor=171717&logoColor=5cb85c) ![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=Twilio&logoColor=white) ![Playwright](https://img.shields.io/badge/-playwright-%232EAD33?style=for-the-badge&logo=playwright&logoColor=white) ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=Khaula-cloud&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=Khaula-cloud&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=Khaula-cloud&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+- **Break it on purpose.** I stress test and kill components to see what happens.
+- **Make it observable.** If I can't see it, I can't trust it.
+- **Document the why.** Every project README explains the trade-offs, not just the steps.
+- **Automate the repetitive parts.** If I did it twice by hand, it becomes a script or a pipeline.
 
 ---
-[![](https://komarev.com/ghpvc/?username=Khaula-cloud&icon=0&color=0)](https://visitcount.itsvg.in)
 
-  ## 💰 You can help me by Donating
-  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/CloudivaX) 
+<div align="center">
 
-  
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+📫 **Let's talk about what you're building:** [LinkedIn](https://www.linkedin.com/in/khaula-azhar) · [Email](mailto:khaulaazhar828@gmail.com) · [Medium](https://medium.com/@khaulaazhar828)
+
+</div>
